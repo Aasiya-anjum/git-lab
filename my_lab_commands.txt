@@ -1,0 +1,69 @@
+    1  git config --global user.name"Aasiya"
+    2  git config --global user.email "aasiii15034@gmail.com"
+    3  git status
+    4  git config --global user.name "Aasiya"   
+    5  git config --global user.email "aasiii15034@gmail.com"
+    6  git status
+    7  mkdir exp 1 && cd exp 1
+    8  git config --global init.defaultBranch master
+    9  rmdir 1 && cd exp1
+   10  mkdir exp1
+   11  cd exp1
+   12  git init
+   13  git add my_file.txt
+   14  touch my_file.txt
+   15  git add my_file.txt
+   16  git commit -m "Add a new file called my_file.txt"
+   17  git checkout master
+   18  git checkout -b feature-branch
+   19  touch feature.txt
+   20  git add .
+   21  git commit -m "your commit message for feature-branch"
+   22  git checkout master
+   23  git merge feature-branch
+   24  echo "Some unfinished work" >>my_file.txt
+   25  git stash save "Your stash message"
+   26  git checkout  feature-branch
+   27  git stash apply
+   28  git add .
+   29  git commit -m "Applied stashed changes"
+   30  git checkout master
+   31  cd ..
+   32  mkdir exp4
+   33  cd exp4
+   34  git clone https://github.com
+   35  git clone https://github.com git-lab.git
+   36  git clone https:/Aasiya-anjum /github.com
+   37  git clone https:/Aasiya-anjum/github.com
+   38  git clone https://github.com/Aasiya-anjum/
+   39  git clone https://github.com/Aasiya-anjum/git-lab.git
+   40  cd git-lab
+   41  git fetch origin
+   42  git rebase origin/main
+   43  cd ../..
+   44  cd exp1
+   45  git checkout  feature-branch
+   46  echo "Update for exp 6" >> feature.txt
+   47  git add . && git commit -m "Updated feature.txt"
+   48  git checkout master
+   49  git merge --no-ff feature-branch -m "Your custom merge commit message"
+   50  git log --oneline
+   51  git tag v1 .0 <commit-id>
+   52  git tag v1.0 <commit-id>
+   53  git tag v1.0 c617afb
+   54  git tag
+   55  git checkout  feature-branch
+   56  echo "Cherry pick test" >> feature.txt
+   57  gut add . && git commit -m "Commit to cherry-pick"
+   58  git add . && git commit -m "Commit to cherry-pick"
+   59  git long -n 1 --oneline
+   60  git log -n 1 --oneline
+   61  git checkout master
+   62  git cherry-pick bf55502
+   63  git show c617afb
+   64  git log --author="Aasiya" --since="2026-11-13" --until="2026-11-15"
+   65  git log -n 5 --oneline
+   66  git revert --no-edit 3955415
+   67  cd ..
+   68  histort > my_lab_commands.txt
+   69  history > my_lab_commands.txt
